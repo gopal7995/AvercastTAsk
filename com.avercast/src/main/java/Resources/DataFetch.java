@@ -22,7 +22,7 @@ public class DataFetch {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		sheet = workbook.getSheet("TestData1");
+		sheet = workbook.getSheet("TestData");
 		int rowCount = sheet.getLastRowNum();
 		int columnCount = sheet.getRow(rowCount).getLastCellNum();
 		String value;
